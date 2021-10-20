@@ -1,0 +1,10 @@
+#include <iostream>
+using namespace std;
+int main() {
+/*temp iz celz. u fajrnhajt*/
+int a;
+cout<<"Unesite temp. u stepenima celzijusa: ";
+cin>>a;
+cout<<a<<" stepeni celzijusa je jednako "<<a*1.8+32<<" fajrnhajta\n";
+return 0;
+}
