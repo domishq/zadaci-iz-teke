@@ -1,0 +1,36 @@
+#include <iostream>
+#include<math.h>
+using namespace std;
+int main() {
+  int a,b;
+  char c;
+  cout<<"Welcome to your friendly neighborhood digitron!\n\nUnesite 2 broja a i b:\n";
+  cin>>a>>b;
+  cout<<"\nOperacije koje su vam dostupne:\n+ za sabiranje,\n- za oduzimanje,\n* za množenje,\n/ za dijeljenje,\n^ - za stepenovanje,\n$ - za korjenovanje\n\nUnesite operaciju koju želite izvršiti: ";
+  cin>>c;
+  if(c=='+' || c=='-' || c=='*' || c=='/' || c=='^')
+    {
+    if(c=='+')
+    cout<<"Zbir brojeva "<<a<<" i "<<b<<" je "<<a+b;
+    else if(c=='-')
+    cout<<"Razlika brojeva "<<a<<" i "<<b<<" je "<<a-b;
+    else if(c=='*')
+    cout<<"Proizvod brojeva "<<a<<" i "<<b<<" je "<<a*b;
+    else if(c=='/' && b!=0)
+    cout<<"Kolicnik brojeva "<<a<<" i "<<b<<" je "<<a/b;
+    else if(c=='/' && b==0)
+    cout<<"\nGREŠKA: Dijelnje sa nulom nije definisano! \nDigitron se gasi. Doviđenja!";
+    else
+    cout<<"Stepen broja "<<a<<" na "<<b<<" je "<<pow(a,b);
+    cout<<"\n\nHVALA NA KORIŠTENJU!\nZDRAVO :)";
+  }
+  else if(c=='$')
+  {
+    cout<<"Drugi korjen broja "<<a<<" je "<<sqrt(a);
+    cout<<"\nHVALA NA KORIŠTENJU!\nZDRAVO :)";
+  }
+  else 
+  cout<<"Unos nije validan. Digitron se gasi. Doviđenja!"; 
+
+return 0;
+}
