@@ -1,0 +1,10 @@
+#include <iostream>
+using namespace std;
+int main() {
+//ucitava 3 broja, prva dva sabere, podijeli sa trecim
+int a,b,c;
+cout<<"Unesite 3 broja, a,b i c: ";
+cin>>a>>b>>c;
+cout<<"(a+b)/c="<<(a+b)/c<<endl;
+return 0;
+}
