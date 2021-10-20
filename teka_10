@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int main() {
+/*predposljednja cifra,a<9*/
+int a;
+cout<<"Unesite neki broj a: ";
+cin>>a;
+if(a>9)
+cout<<"Predposljednja cifra broja "<<a<<" je "<<a/10%10;
+else
+cout<<"Unijeli ste jednocifren broj!";
+return 0;
+}
