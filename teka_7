@@ -1,0 +1,10 @@
+#include <iostream>
+using namespace std;
+int main() {
+/*o i p kruznice*/
+int r;
+cout<<"Unesite poluprecnik kruznice u cm, r= ";
+cin>>r;
+cout<<"Obim kruznice iznosi "<<2*3.14*r<<"cm, a povrsina "<<r*r*3.14<<"cm^2\n";
+return 0;
+}
