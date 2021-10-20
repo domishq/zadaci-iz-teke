@@ -1,0 +1,10 @@
+#include <iostream>
+using namespace std;
+int main() {
+/*rezultat dijeljenja 2 broja kao i ostatak*/
+int a,b;
+cout<<"Unesite 2 broja, a i b: ";
+cin>>a>>b;
+cout<<"Kolicnik dijeljenja ova dva broja je "<<a/b<<" , a ostatak "<<a%b;
+return 0;
+}
