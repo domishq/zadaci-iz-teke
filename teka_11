@@ -1,0 +1,11 @@
+#include <iostream>
+#include <algorithm>
+using namespace std;
+int main() {
+/*najveci od 2 broja*/
+int a,b;
+cout<<"Unesite 2 broja, a i b: ";
+cin>>a>>b;
+cout<<"Najveci broj je: "<<max(a,b);
+return 0;
+}
