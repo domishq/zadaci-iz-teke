@@ -1,0 +1,10 @@
+#include <iostream>
+using namespace std;
+int main() {
+/*y, preko jednacine 5y-3x=0*/
+int x,y;
+cout<<"Unesite neki cijeli broj x: ";
+cin>>x;
+cout<<"Iz jednacine 5y-3x=0, i x="<<x<<" , slijedi da je y="<<3*x/5<<endl;
+return 0;
+}
