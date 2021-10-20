@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int main() {
+/*algoritam za cijenu taksi usluge, start=1,5KM*/
+float const a=1.5;
+float b,c;
+cout<<"Unesite cijenu usluge po km u KM: ";
+cin>>b;
+cout<<"Unesite koliko ste presli u km: ";
+cin>>c;
+cout<<"Cijena koju trebate platiti iznosi: "<<b*c+a<<"KM\n";
+return 0;
+}
