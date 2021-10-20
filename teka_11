@@ -1,0 +1,12 @@
+#include <iostream>
+#include <algorithm>
+using namespace std;
+int main() {
+/*najveci od 3 broja*/
+int a,b,c;
+cout<<"Unesite 3 broja, a,b i c: ";
+cin>>a>>b>>c;
+c=max(b,c);
+cout<<"Najveci broj je: "<<max(a,c);
+return 0;
+}
