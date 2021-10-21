@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+int main() {
+  /*program za ispis brojeva od a do b*/
+  int a,b;
+  cout<<"Unesite dva cijela broja a i b: ";
+  cin>>a>>b;
+  cout<<"Brojevi od a do b su:\n";
+  if(a<=b)
+  {
+  while(a<=b)
+  {
+    cout<<a<<endl;
+    a++;
+  }
+  }
+  else if(a>=b)
+  {
+  while(a>=b)
+  {  
+   cout<<a<<endl; 
+   a--; 
+  }
+  }
+return 0;
+}
