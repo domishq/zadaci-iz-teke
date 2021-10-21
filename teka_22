@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int main() {
+  /*zbir cifara unesenog broja x*/
+  int x,y=0;
+  cout<<"Unesite neki cijeli broj x: ";
+  cin>>x;
+  while(x!=0)
+  {
+    y+=x%10;
+    x/=10;
+  }
+  cout<<"Zbir cifara unijetog broja x je: "<<y;
+  return 0;
+}
