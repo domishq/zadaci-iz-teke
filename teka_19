@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 int main() {
+/*prvi broj djeljiv sa n od x*/
 int n,x;
 cout<<"Unesite neki broj n: ";
 cin>>n;
