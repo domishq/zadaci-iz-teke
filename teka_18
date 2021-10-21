@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int main() {
+  /*upis brojeva dok se ne unese 0, ispis sume reciprocnih vrijednosti*/
+  double a,b=0;
+  cout<<"Unosite cijele brojeve, kada zelite da se ispise suma reciprocnih vrijednosti unesite 0:\n";
+  cin>>a;
+  while(a!=0)
+  {
+    b=b+(1/a);
+    cin>>a;
+  }
+  cout<<"Suma iznosi: "<<b;
+  return 0;
+  }
