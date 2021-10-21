@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+int main() {
+  /*provjeriti da li je cijeli unijeti broj prost*/
+  int a,i=2;
+  cout<<"Unesite neki cijeli broj: ";
+  cin>>a;
+  while(a%i!=0)
+  {
+    i++;
+  }
+  if(i==a)
+    cout<<"Broj je prost!";
+  else
+    cout<<"Broj nije prost!";
+  return 0;
+}
