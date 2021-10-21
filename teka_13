@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int main() {
+/*ako je zbir ocjena veci od 11 dobiju umnozak ocjena, a ako nije, dobiju upola toliko*/
+int a,b,c;
+cout<<"Unesite ocjene koje ste dobili na testu: ";
+cin>>a>>b>>c;
+if(a+b+c>11)
+  cout<<"Dobili su "<<a*b*c<<"KM\n";
+else
+  cout<<"Dobili su "<<(a*b*c)/2<<"KM\n";
+return 0;
+}
