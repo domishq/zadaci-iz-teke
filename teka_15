@@ -1,0 +1,32 @@
+#include <iostream>
+using namespace std;
+int main() {
+/*besmisleni zadatak sa ucenikom i profesorom*/
+int a,b;
+cout<<"Unesite ucenikovo ponasanje(1-10): ";
+cin>>a;
+if(a<=10 && a>=1)
+{
+if(a>5)
+{
+  cout<<"Svaka cast!\n";
+}
+else
+{
+  cout<<"Unesite ucenikovu ocjenu: ";
+  cin>>b;
+  if(b<6 && b>0)
+  {
+  if(b<4)
+  cout<<"Ucenik je ocijenjen!";
+  else
+  cout<<"Ucenik je istjeran sa casa!";
+  }
+  else 
+  cout<<"Niste unijeli validan broj!\n";
+}
+}
+else
+cout<<"Niste unijeli validan broj!\n";
+return 0;
+}
