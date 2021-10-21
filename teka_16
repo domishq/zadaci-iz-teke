@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 int main() {
+/*program za ispis sati*/
 int s,m;
 cout<<"Unesite trenutan broj sati: ";
 cin>>s;
