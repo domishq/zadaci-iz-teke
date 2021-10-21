@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+int main() {
+/*prosjek unijetih parnih brojeva*/
+  int a,b=0,i=0;
+  cout<<"Unosite cijele brojeve a, kada zelite da vam se ispise prosjek unijetih parnih brojeva unesite 0!\n";
+  cin>>a;
+  while(a!=0)
+  {
+    if(a%2==0)
+    {
+      b+=a;
+      i++;
+    }
+    cin>>a;
+  }
+  cout<<"Prosjek unijetih parnih brojeva je: "<<(double)b/i;
+  return 0;
+}
