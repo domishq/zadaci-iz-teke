@@ -1,0 +1,13 @@
+#include <iostream>
+#include <algorithm>
+using namespace std;
+int main() {
+/*3 broja se unose, otkriti i ispisati najmanji*/
+int a,b,c;
+cout<<"Unesite brojeve a,b i c: ";
+cin>>a>>b>>c;
+c=min(a,c);
+c=min(c,b);
+cout<<"Najmanji broj od unesena 3 broja, jeste broj: "<<c<<endl;
+return 0;
+}
