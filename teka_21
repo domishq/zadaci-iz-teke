@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int main() {
+  int a,b,c;
+  cout<<"Unesite 2 broja, a i b: ";
+  cin>>a>>b;
+  c=a;
+  while(a>b)
+  a-=b;
+  if(a<b)
+  cout<<"Broj "<<c<<" nije djeljiv brojem "<<b<<endl;
+  else
+  cout<<"Broj "<<c<<" je djeljiv brojem "<<b<<endl;
+  return 0;
+}
