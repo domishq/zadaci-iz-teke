@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+int main() {
+int s,m;
+cout<<"Unesite trenutan broj sati: ";
+cin>>s;
+cout<<"Unesite trenutan broj minuta: ";
+cin>>m;
+if(m==30)
+ cout<<"Sada je pola "<<s+1;
+else
+{
+ if(m<30 && m>0)
+  cout<<"Sada je "<<s<<" i "<<m;
+ else 
+ {
+   if(m<60 && m>0)
+     cout<<"Sada je "<<60-m<<" do "<<s+1; 
+   else
+   {
+     if(s==0 && m==0 | s==24 && m==0)
+       cout<<"Ponoc je";
+     else 
+       cout<<"Sada je "<<s<<" sati/a";
+   } 
+ }
+}
+return 0;
+}
